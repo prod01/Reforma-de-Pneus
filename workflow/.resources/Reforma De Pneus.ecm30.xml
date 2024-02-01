@@ -1,0 +1,903 @@
+<list>
+  <ProcessDefinition>
+    <processDefinitionPK>
+      <companyId>1</companyId>
+      <processId>ReformaDePneus</processId>
+    </processDefinitionPK>
+    <processDescription></processDescription>
+    <instruction></instruction>
+    <active>true</active>
+    <publicProcess>false</publicProcess>
+    <volumeId>Default</volumeId>
+    <categoryId></categoryId>
+    <managerEngineAllocationId></managerEngineAllocationId>
+    <snapshotFrequency>0</snapshotFrequency>
+    <baseDay>0</baseDay>
+    <baseMonth>0</baseMonth>
+    <periodId>Default</periodId>
+    <uniqueCardVersion>false</uniqueCardVersion>
+    <keyWord></keyWord>
+    <complementsLevel>1</complementsLevel>
+    <notifyRequisitionerComplements>true</notifyRequisitionerComplements>
+    <notifyManagerComplements>false</notifyManagerComplements>
+    <deadlineTime>0</deadlineTime>
+    <warningDeadlineTime>0</warningDeadlineTime>
+    <notifyAuthorityComplements>true</notifyAuthorityComplements>
+  </ProcessDefinition>
+  <ProcessDefinitionVersion>
+    <processDefinitionVersionPK>
+      <companyId>1</companyId>
+      <processId></processId>
+      <version>13</version>
+    </processDefinitionVersionPK>
+    <versionDescription></versionDescription>
+    <formId>0</formId>
+    <editionMode>true</editionMode>
+    <updateAttachmentsVersion>false</updateAttachmentsVersion>
+    <controlsAttachmentsSecurity>false</controlsAttachmentsSecurity>
+    <active>true</active>
+    <blockedVersion>false</blockedVersion>
+    <counterSign>false</counterSign>
+    <openInstances>0</openInstances>
+    <bpmnVersion>2</bpmnVersion>
+    <processStates/>
+    <favorito>false</favorito>
+    <inheritFormSecurity>false</inheritFormSecurity>
+    <mobileReady>false</mobileReady>
+  </ProcessDefinitionVersion>
+  <list>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <sequence>6</sequence>
+      </processStatePK>
+      <stateName>Start</stateName>
+      <stateDescription>Start</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>true</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>110</positionX>
+      <positionY>150</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>10</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <sequence>7</sequence>
+      </processStatePK>
+      <stateName>Aprovação da Reforma</stateName>
+      <stateDescription>Aprovação da Reforma</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Executor Atividade</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;BaseActivity&gt;6&lt;/BaseActivity&gt;&lt;Returns&gt;Last&lt;/Returns&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>200</positionX>
+      <positionY>132</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <sequence>9</sequence>
+      </processStatePK>
+      <stateName>Informar OC</stateName>
+      <stateDescription>Informar OC</stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Executor Atividade</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;BaseActivity&gt;7&lt;/BaseActivity&gt;&lt;Returns&gt;Last&lt;/Returns&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>390</positionX>
+      <positionY>139</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <sequence>10</sequence>
+      </processStatePK>
+      <stateName>Descarte do Pneu </stateName>
+      <stateDescription>Descarte do Pneu </stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Pool Grupo</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;Group&gt;Validacao_descarte_pneus&lt;/Group&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>200</positionX>
+      <positionY>437</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <sequence>23</sequence>
+      </processStatePK>
+      <stateName>Validação da Reforma </stateName>
+      <stateDescription>Validação da Reforma </stateDescription>
+      <instruction></instruction>
+      <deadlineTime>0</deadlineTime>
+      <deadlineFieldName></deadlineFieldName>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId>Executor Atividade</engineAllocationId>
+      <engineAllocationConfiguration>&lt;AssignmentController&gt;&lt;BaseActivity&gt;9&lt;/BaseActivity&gt;&lt;Returns&gt;Last&lt;/Returns&gt;&lt;/AssignmentController&gt;</engineAllocationConfiguration>
+      <selectColleague>1</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
+      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>630</positionX>
+      <positionY>132</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>0</stateType>
+      <bpmnType>80</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
+      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
+      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+      <executionType>0</executionType>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <sequence>19</sequence>
+      </processStatePK>
+      <stateName>End</stateName>
+      <stateDescription>End</stateDescription>
+      <instruction>Atividade final do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>0</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>460</positionX>
+      <positionY>454</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>6</stateType>
+      <bpmnType>60</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+    <ProcessState>
+      <processStatePK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <sequence>39</sequence>
+      </processStatePK>
+      <stateName>End</stateName>
+      <stateDescription>End</stateDescription>
+      <instruction>Atividade final do processo</instruction>
+      <deadlineTime>0</deadlineTime>
+      <joint>false</joint>
+      <agreementPercentage>0</agreementPercentage>
+      <engineAllocationId></engineAllocationId>
+      <engineAllocationConfiguration></engineAllocationConfiguration>
+      <selectColleague>0</selectColleague>
+      <initialState>false</initialState>
+      <notifyAuthorityDelay>true</notifyAuthorityDelay>
+      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
+      <allowanceAuthorityTime>0</allowanceAuthorityTime>
+      <frequenceAuthorityTime>1</frequenceAuthorityTime>
+      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
+      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
+      <transferAttachments>false</transferAttachments>
+      <subProcessId></subProcessId>
+      <formFolder>0</formFolder>
+      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
+      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
+      <automatic>false</automatic>
+      <positionX>807</positionX>
+      <positionY>149</positionY>
+      <forecastedEffortType>0</forecastedEffortType>
+      <forecastedEffort>0</forecastedEffort>
+      <notifyManagerFollowUp>false</notifyManagerFollowUp>
+      <notifyManagerDelay>false</notifyManagerDelay>
+      <allowanceManagerTime>0</allowanceManagerTime>
+      <frequenceManagerTime>0</frequenceManagerTime>
+      <inhibitTransfer>false</inhibitTransfer>
+      <periodId></periodId>
+      <stateType>6</stateType>
+      <bpmnType>60</bpmnType>
+      <signalId>0</signalId>
+      <counterSign>false</counterSign>
+      <openInstances>0</openInstances>
+      <destinationStates/>
+      <digitalSignature>false</digitalSignature>
+    </ProcessState>
+  </list>
+  <list/>
+  <list>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <linkSequence>13</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>7</initialStateSequence>
+      <finalStateSequence>9</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <linkSequence>20</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>10</initialStateSequence>
+      <finalStateSequence>19</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <linkSequence>30</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>7</initialStateSequence>
+      <finalStateSequence>10</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <linkSequence>33</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>9</initialStateSequence>
+      <finalStateSequence>23</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <linkSequence>38</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>6</initialStateSequence>
+      <finalStateSequence>7</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+    <ProcessLink>
+      <processLinkPK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <linkSequence>40</linkSequence>
+      </processLinkPK>
+      <actionLabel></actionLabel>
+      <returnPermited>false</returnPermited>
+      <initialStateSequence>23</initialStateSequence>
+      <finalStateSequence>39</finalStateSequence>
+      <returnLabel></returnLabel>
+      <name></name>
+      <automaticLink>false</automaticLink>
+      <defaultLink>false</defaultLink>
+      <type>0</type>
+    </ProcessLink>
+  </list>
+  <list/>
+  <list>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>beforeTaskSave</eventId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>function beforeTaskSave(colleagueId,nextSequenceId,userList){&#xd;
+	&#xd;
+	&#xd;
+	var atividade = getValue(&quot;WKCurrentState&quot;)&#xd;
+	&#xd;
+	&#xd;
+	if ( atividade == 10 ){&#xd;
+		anexo()&#xd;
+		descartaPneu()&#xd;
+	}&#xd;
+	&#xd;
+	if ( atividade == 23 ){&#xd;
+		&#xd;
+		&#xd;
+		if (hAPI.getCardValue(&quot;INFORMACAO_REFROMA&quot;) == &quot;REFORMA&quot; ){&#xd;
+			&#xd;
+			anexo()&#xd;
+			alteraMedidas()&#xd;
+			alteraReforma()&#xd;
+			&#xd;
+			&#xd;
+		}&#xd;
+&#xd;
+		else {&#xd;
+			&#xd;
+			log.info(&quot;O Pneu não foi reformado&quot; + hAPI.getCardValue(&quot;INFORMACAO_REFROMA&quot;))&#xd;
+			&#xd;
+		}&#xd;
+	}&#xd;
+	&#xd;
+	&#xd;
+	&#xd;
+}&#xd;
+function anexo(){&#xd;
+	if ( hAPI.listAttachments().size() &lt; 1){    &#xd;
+		log.info(&quot;function anexo &quot;)&#xd;
+    	throw &quot;&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;É obrigatório o anexo nesta atividade .&lt;/strong&gt;&lt;br/&gt;&quot;;&#xd;
+    &#xd;
+		}	&#xd;
+}&#xd;
+&#xd;
+function descartaPneu(){&#xd;
+	&#xd;
+	var nomeDataserver = &quot;MntObjOficinaData&quot;&#xd;
+		log.info(&quot;nomeDataserver: &quot;+nomeDataserver)&#xd;
+		&#xd;
+		var user = DatasetFactory.getDataset(&quot;ds_connector&quot;, null, null, null);&#xd;
+		log.info(&quot;user: &quot;+user)&#xd;
+		&#xd;
+		var usuario = user.getValue(0, &quot;INTEGRADOR&quot;)&#xd;
+		log.info(&quot;usuario: &quot;+usuario)&#xd;
+		var senha = user.getValue(0, &quot;SENHA&quot;)&#xd;
+		log.info(&quot;senha: &quot;+senha)&#xd;
+		var email = user.getValue(0, &quot;EMAIL&quot;)&#xd;
+		log.info(&quot;email: &quot;+email)&#xd;
+		&#xd;
+	var contexto = &quot;codcoligada=1;codusuario=pedro.jesus;codsistema=O&quot;&#xd;
+		log.info(&quot;contexto: &quot;+contexto)&#xd;
+		&#xd;
+	var authService = getWebService(usuario, senha)&#xd;
+	log.info(&quot;authService: &quot;+authService)&#xd;
+&#xd;
+	var xml = &#xd;
+		&quot;&lt;MntObjOficina&gt;&quot;+&#xd;
+			&quot;&lt;OfObjOficina&gt;&quot; +&#xd;
+					&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot; +&#xd;
+					&quot;&lt;IDOBJOF&gt;&quot;+hAPI.getCardValue(&quot;IDOBJOF&quot;)+&quot;&lt;/IDOBJOF&gt;&quot; +&#xd;
+					&quot;&lt;ESTADOCONSERVACAO&gt;S&lt;/ESTADOCONSERVACAO&gt;&quot;+&#xd;
+			&quot;&lt;/OfObjOficina&gt;&quot;+&#xd;
+		&quot;&lt;/MntObjOficina&gt;&quot;&#xd;
+			&#xd;
+			log.info(&quot;xml: &quot;+xml)&#xd;
+			&#xd;
+	&#xd;
+	&#xd;
+	var result = new String( authService.saveRecord(nomeDataserver, xml, contexto) );&#xd;
+&#xd;
+	log.error(&quot;result: &quot;+result);&#xd;
+&#xd;
+	if (result.split(&quot;;&quot;)[0] != &quot;1&quot;){&#xd;
+		throw &quot;ERRO AO FAZER A ALTERAÇÃO \n\n&quot;+result.split(&quot;=&quot;)[0]+&quot;\n\n&quot;&#xd;
+	}&#xd;
+&#xd;
+	&#xd;
+}&#xd;
+&#xd;
+&#xd;
+function alteraMedidas(){&#xd;
+	var nomeDataserver = &quot;MntObjIndiceData&quot;&#xd;
+		log.info(&quot;nomeDataserver: &quot;+nomeDataserver)&#xd;
+		&#xd;
+		var user = DatasetFactory.getDataset(&quot;ds_connector&quot;, null, null, null);&#xd;
+		log.info(&quot;user: &quot;+user)&#xd;
+		&#xd;
+		var usuario = user.getValue(0, &quot;INTEGRADOR&quot;)&#xd;
+		log.info(&quot;usuario: &quot;+usuario)&#xd;
+		var senha = user.getValue(0, &quot;SENHA&quot;)&#xd;
+		log.info(&quot;senha: &quot;+senha)&#xd;
+		var email = user.getValue(0, &quot;EMAIL&quot;)&#xd;
+		log.info(&quot;email: &quot;+email)&#xd;
+		&#xd;
+		var contexto = &quot;codcoligada=1;codusuario=Pedro.jesus;codsistema=O&quot;&#xd;
+			log.info(&quot;contexto: &quot;+contexto)&#xd;
+			&#xd;
+		var authService = getWebService(usuario, senha)&#xd;
+		log.info(&quot;authService: &quot;+authService)&#xd;
+&#xd;
+&#xd;
+		&#xd;
+		var idObJof = hAPI.getCardValue(&quot;IDOBJOF&quot;)&#xd;
+	&#xd;
+		var idIndice = hAPI.getCardValue(&quot;INDICE_ACOMPANHAMENTO&quot;)&#xd;
+	&#xd;
+		var dataMedicao = hAPI.getCardValue(&quot;DATAMEDICAO&quot;)&#xd;
+		var date = dataMedicao.split(&quot; &quot;)[0];&#xd;
+		log.info(&quot;data&quot;+date);&#xd;
+	    var hora = dataMedicao.split(&quot; &quot;)[1];&#xd;
+		log.info(&quot;hora&quot; +hora);&#xd;
+		&#xd;
+	           var d = date.split(&quot;/&quot;)[0];&#xd;
+	    	   var m = date.split(&quot;/&quot;)[1];&#xd;
+	    	   var a = date.split(&quot;/&quot;)[2];&#xd;
+	    	   //     03    08  2022&#xd;
+	    		&#xd;
+	    		&#xd;
+	    		var dia = a + &quot;-&quot; + m + &quot;-&quot; + d;&#xd;
+	&#xd;
+	    		var h = hora.split(&quot;:&quot;)[0];&#xd;
+	    		var m = hora.split(&quot;:&quot;)[1];&#xd;
+	    		&#xd;
+	    		&#xd;
+	    		&#xd;
+	    		var hor = h + &quot;:&quot; + m + &quot;:00&quot;;&#xd;
+	    		&#xd;
+	    		var dataFull = dia + &quot;T&quot;  + hor;&#xd;
+	            log.info(&quot;data da medicao&quot;+dataFull)&#xd;
+		&#xd;
+		//pega do html o VALORMEDICAO&#xd;
+		var valorMedicao = hAPI.getCardValue(&quot;NOVA_MEDIDA&quot;)&#xd;
+	&#xd;
+		//pega do html o CAMPOIDHISTINDICADOR&#xd;
+		var valorIDHistoricoIndicador = hAPI.getCardValue(&quot;IDHISTINDICADOR&quot;)&#xd;
+	&#xd;
+		&#xd;
+		//seta o a virgula para ponto &#xd;
+		var milimetragem=valorMedicao.replace(&quot;.&quot;,&quot;,&quot;)&#xd;
+		log.info(&quot;milimetragem: &quot;+milimetragem)&#xd;
+		&#xd;
+		&#xd;
+		//set data e hora diacordo com o padrao do RM &#xd;
+		&#xd;
+					&#xd;
+	    //xml que envia as informaçoes para o RM    &#xd;
+		var xml = &quot;&lt;MntObjIndice&gt;&quot; +&#xd;
+				&quot;&lt;OfObjIndice&gt;&quot; +&#xd;
+					&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot; +&#xd;
+					&quot;&lt;IDOBJOF&gt;&quot; + idObJof + &quot;&lt;/IDOBJOF&gt;&quot; +&#xd;
+					&quot;&lt;IDINDICE&gt;&quot; + idIndice + &quot;&lt;/IDINDICE&gt;&quot; +&#xd;
+					&quot;&lt;DATAMEDICAO&gt;&quot; + dataFull + &quot;&lt;/DATAMEDICAO&gt;&quot; +&#xd;
+					&quot;&lt;VALOR&gt;&quot; + milimetragem + &quot;&lt;/VALOR&gt;&quot;+&#xd;
+					&quot;&lt;IDHISTINDICADOR&gt;&quot;+ valorIDHistoricoIndicador +&quot;&lt;/IDHISTINDICADOR&gt;&quot; +&#xd;
+				&quot;&lt;/OfObjIndice&gt;&quot; +&#xd;
+				&quot;&lt;/MntObjIndice&gt;&quot;&#xd;
+				&#xd;
+				&#xd;
+				log.info(&quot;xml: &quot;+xml)&#xd;
+				&#xd;
+					&#xd;
+		var result = new String( authService.saveRecord(nomeDataserver, xml, contexto) );&#xd;
+		//String DataServerName, String XML, String UserName, String UserPassword, String contexto, String emailUsuarioContexto&#xd;
+&#xd;
+		&#xd;
+	if (result.split(&quot;;&quot;)[0] != &quot;1&quot;){&#xd;
+		throw &quot;ERRO AO FAZER A ALTERAÇÃO \n\n&quot;+result.split(&quot;=&quot;)[0]+&quot;\n\n&quot;&#xd;
+	}&#xd;
+&#xd;
+	&#xd;
+}&#xd;
+&#xd;
+&#xd;
+&#xd;
+function alteraReforma(){&#xd;
+	&#xd;
+	var nomeDataserver = &quot;MntObjOficinaData&quot;&#xd;
+		log.info(&quot;nomeDataserver: &quot;+nomeDataserver)&#xd;
+		&#xd;
+		var user = DatasetFactory.getDataset(&quot;ds_connector&quot;, null, null, null);&#xd;
+		log.info(&quot;user: &quot;+user)&#xd;
+		&#xd;
+		var usuario = user.getValue(0, &quot;INTEGRADOR&quot;)&#xd;
+		log.info(&quot;usuario: &quot;+usuario)&#xd;
+		var senha = user.getValue(0, &quot;SENHA&quot;)&#xd;
+		log.info(&quot;senha: &quot;+senha)&#xd;
+		var email = user.getValue(0, &quot;EMAIL&quot;)&#xd;
+		log.info(&quot;email: &quot;+email)&#xd;
+		&#xd;
+	var contexto = &quot;codcoligada=1;codusuario=pedro.jesus;codsistema=O&quot;&#xd;
+		log.info(&quot;contexto: &quot;+contexto)&#xd;
+		&#xd;
+	var authService = getWebService(usuario, senha)&#xd;
+	log.info(&quot;authService: &quot;+authService)&#xd;
+	&#xd;
+	var reforma = hAPI.getCardValue(&quot;QTDEREFORMA&quot;)&#xd;
+	&#xd;
+	var reforma = reforma + 1&#xd;
+&#xd;
+	var xml = &#xd;
+		&quot;&lt;MntObjOficina&gt;&quot;+&#xd;
+			&quot;&lt;OfObjOficina&gt;&quot; +&#xd;
+					&quot;&lt;CODCOLIGADA&gt;1&lt;/CODCOLIGADA&gt;&quot; +&#xd;
+					&quot;&lt;IDOBJOF&gt;&quot;+hAPI.getCardValue(&quot;IDOBJOF&quot;)+&quot;&lt;/IDOBJOF&gt;&quot; +&#xd;
+					&quot;&lt;QTDEREFORMA&gt;&quot; +reforma+&quot;&lt;/QTDEREFORMA&gt;&quot;+&#xd;
+					&quot;&lt;ESTADOCONSERVACAO&gt;R&lt;/ESTADOCONSERVACAO&gt;&quot; +&#xd;
+					&quot;&lt;STATUS&gt;4&lt;/STATUS&gt;&quot;+&#xd;
+			&quot;&lt;/OfObjOficina&gt;&quot;+&#xd;
+		&quot;&lt;/MntObjOficina&gt;&quot;&#xd;
+			&#xd;
+			log.info(&quot;xml: &quot;+xml)&#xd;
+			&#xd;
+	&#xd;
+	&#xd;
+	var result = new String( authService.saveRecord(nomeDataserver, xml, contexto) );&#xd;
+&#xd;
+	log.error(&quot;result: &quot;+result);&#xd;
+&#xd;
+	if (result.split(&quot;;&quot;)[0] != &quot;1&quot;){&#xd;
+		throw &quot;ERRO AO FAZER A ALTERAÇÃO \n\n&quot;+result.split(&quot;=&quot;)[0]+&quot;\n\n&quot;&#xd;
+	}&#xd;
+&#xd;
+	&#xd;
+}&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+function getWebService(usuario, senha){&#xd;
+	&#xd;
+	var nomeServico = &quot;wsDataServer&quot;&#xd;
+		log.info(&quot;nomeServico: &quot;+nomeServico)&#xd;
+		&#xd;
+	var caminhoServico = &quot;com.totvs.WsDataServer&quot;&#xd;
+		log.info(&quot;caminhoServico: &quot;+caminhoServico)&#xd;
+		&#xd;
+	var dataServerService = ServiceManager.getServiceInstance(nomeServico);&#xd;
+	log.info(&quot;dataServerService: &quot;+dataServerService)&#xd;
+	&#xd;
+	if (dataServerService == null){&#xd;
+		throw &quot;Erro ao encontrar serviço!&quot;;&#xd;
+	}&#xd;
+	&#xd;
+	var locator = dataServerService.instantiate(caminhoServico);&#xd;
+	log.info(&quot;locator: &quot;+locator)&#xd;
+&#xd;
+	if (locator == null){&#xd;
+		throw &quot;Erro ao instanciar serviço!&quot;;&#xd;
+	}&#xd;
+	&#xd;
+	var service = locator.getRMIwsDataServer();&#xd;
+	log.info(&quot;service: &quot;+service)&#xd;
+&#xd;
+	if (service == null){&#xd;
+		throw &quot;Erro instancia incorreta ou com problemas!&quot;;&#xd;
+	}&#xd;
+	&#xd;
+	var serviceHelper = dataServerService.getBean();&#xd;
+	log.info(&quot;serviceHelper: &quot;+serviceHelper)&#xd;
+&#xd;
+	if (serviceHelper == null){&#xd;
+		throw &quot;Erro no serviço de autenticação!&quot;;&#xd;
+	}&#xd;
+	&#xd;
+	var authService = serviceHelper.getBasicAuthenticatedClient(service, &quot;com.totvs.IwsDataServer&quot;, usuario, senha)&#xd;
+	log.info(&quot;authService: &quot;+authService)&#xd;
+&#xd;
+	if (authService == null){&#xd;
+		throw &quot;Erro ao autenticar dataserver!&quot;;&#xd;
+	}&#xd;
+	&#xd;
+	return authService;&#xd;
+&#xd;
+}&#xd;
+&#xd;
+</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>ENG_LITERALS</eventId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>#Wed Dec 20 09:43:24 BRT 2023&#xd;
+process.category=&#xd;
+process.description=Reforma De Pneus&#xd;
+process.instructions=&#xd;
+</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>ESP_LITERALS</eventId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>#Wed Dec 20 09:43:24 BRT 2023&#xd;
+process.category=&#xd;
+process.description=Reforma De Pneus&#xd;
+process.instructions=&#xd;
+</eventDescription>
+    </WorkflowProcessEvent>
+    <WorkflowProcessEvent>
+      <workflowProcessEventPK>
+        <companyId>1</companyId>
+        <eventId>POR_LITERALS</eventId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+      </workflowProcessEventPK>
+      <eventDescription>#Wed Dec 20 09:43:24 BRT 2023&#xd;
+process.category=&#xd;
+process.description=Reforma De Pneus&#xd;
+process.instructions=&#xd;
+</eventDescription>
+    </WorkflowProcessEvent>
+  </list>
+  <list/>
+  <list>
+    <SwimLane>
+      <color>FFFFFF</color>
+      <height>611</height>
+      <width>911</width>
+      <positionX>10</positionX>
+      <positionY>10</positionY>
+      <stateName>Reforma de Pneus</stateName>
+      <type>1</type>
+      <parentSequence>0</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <sequence>1</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>82b0b7</color>
+      <height>305</height>
+      <width>881</width>
+      <positionX>40</positionX>
+      <positionY>10</positionY>
+      <stateName>Controlador de Manutenção</stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <sequence>2</sequence>
+      </swimLanePK>
+    </SwimLane>
+    <SwimLane>
+      <color>d6e0d0</color>
+      <height>306</height>
+      <width>881</width>
+      <positionX>40</positionX>
+      <positionY>315</positionY>
+      <stateName>Descarte do Pneu </stateName>
+      <type>2</type>
+      <parentSequence>1</parentSequence>
+      <swimLanePK>
+        <companyId>1</companyId>
+        <processId>ReformaDePneus</processId>
+        <version>1</version>
+        <sequence>3</sequence>
+      </swimLanePK>
+    </SwimLane>
+  </list>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+  <list/>
+</list>
